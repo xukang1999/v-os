@@ -1,0 +1,30 @@
+#
+# Copyright (C) 2016-2020 南京北星极网络科技有限公司
+#
+
+include $(USER_DEPTH)/make/makeinclude/mk_pre.mak
+
+#USER_BIN
+USER_LIB= libname
+
+USER_BIN=program_name
+
+USER_MODULE=module-name
+
+USER_SUBDIRS = mod1 mod2 mod3
+
+USER_SRCS_C += test.c test1.c test2.c source/test3.c
+USER_SRCS_CPP= test.cpp
+USER_SRCS_CXX=test.cxx
+USER_SRCS_CC=test.cc
+USER_SRCS_S=test1.s test2.s
+
+
+USER_INCLDIRS = -I./
+				
+USER_DEFFLAGS = -DWFNOS_LINUX -DWFNOS_OPENSSL -DWFNOS_SSL -DWFNOS_THREADS
+USER_LINK_LIBS = 
+
+USER_OBJ_DIR = $(TARGET_PATH)/path/
+
+include $(USER_DEPTH)/make/makeinclude/mk_post.mak

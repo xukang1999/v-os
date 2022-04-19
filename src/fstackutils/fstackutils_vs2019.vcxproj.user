@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>F:\svn2020\staros-s\staros-s-1.0.0\build\windows\x64\staros-s_release-1.0.0.x86_64 F:\svn2020\staros-s\staros-s-1.0.0\build\windows\x64\staros-s_release-1.0.0.x86_64\scripts\staros_controller.xml</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
