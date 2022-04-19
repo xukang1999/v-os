@@ -8,7 +8,7 @@ V-OS userspace virtual operating system kernel. it support linux/macOS/Windows.
     #compile
     cd /data/v-os/build
     source .env.sh
-    make debug=0 staitc=0 os=ubuntu20
+    make debug=0 static=0 os=ubuntu20/macOS
 	
 ## Source Introduction 
 	+src
